@@ -31,6 +31,8 @@ margin-right: 0;
   right: 0;
   font-family: 'Oswald', sans-serif;
   
+  z-index: 2;
+  
    }
    
  #photoContainer{
@@ -53,11 +55,23 @@ margin-right: 0;
 	width: 100%;
 	left:0;
 	z-index: -1;
-	top:50px;
+	top:0px;
+	padding: 0;
 	
 }
-
-
+#chunk{
+	position: absolute;
+	width: 100%;
+	background-color: #FFFFFF;
+	top: 718px;
+	left: 0;
+	right: 0;
+	height: 900px;
+	padding: 0;
+}
+bodu {
+	background-color: #949494;
+}
 ul {
     list-style-type: none;
     margin: 0;
