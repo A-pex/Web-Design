@@ -1,3 +1,9 @@
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
 #photoContainer{
 position: absolute;
 width: cover;
@@ -52,53 +58,68 @@ margin-right: 0;
 
 #img{
 	position: absolute;
-	width: 100%;
+	width: auto;
+	height:auto;
 	left:0;
 	z-index: -1;
 	top:0px;
 	padding: 0;
+
 	
 }
 #chunk{
 	position: absolute;
 	width: 100%;
 	background-color: #FFFFFF;
-	top: 718px;
+	top: 680px;
 	left: 0;
 	right: 0;
 	height: 900px;
 	padding: 0;
 }
-bodu {
+body {
 	background-color: #949494;
 }
-ul {
+
+		ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+	left:0;
+	position:fixed;
 }
 
 li {
-    float: left;
+    left:0;
+	margin: 0;
+    padding: 0;
+	top: 0;
+
+	
+	
 }
 
-a:link, a:visited {
+	a:link, a:visited {
+	left:0;
 	background: url(50%-transparent-white.png);
 	display: block;
     width: 120px;
-
+	top:0;
     color: #FFFFFF;
-    text-align: center;
+	
     padding: 13px;
     text-decoration: none;
     text-transform: uppercase;
 }
-
 a:hover, a:active {
     background-color: rgba(151,151,151,0.5);
 }
 }
-
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
 
 
