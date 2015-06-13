@@ -1,7 +1,17 @@
 #menu {
+  background-color: #ffffff;
+  
+  padding: 0;
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  display:block;
+  background: url(50%-transparent-white.png);
+  background: rgba(151,151,151,0.5);
+  height: 50px; 
   position: fixed;
+  top: 0px;
+  width: 1400px; 
+  left: 0;
   right: 0;
-  top: 50%;
-  width: 8em;
-  margin-top: -2.5em;
-}
+   }
