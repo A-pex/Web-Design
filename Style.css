@@ -65,6 +65,7 @@ margin-right: 0;
 	top:0px;
 	padding: 0;
 
+
 	
 }
 #chunk{
@@ -86,12 +87,12 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-	left:0;
+	
 	position:fixed;
 }
 
 li {
-    left:0;
+	text-align:center;
 	margin: 0;
     padding: 0;
 	top: 0;
