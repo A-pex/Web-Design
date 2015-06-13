@@ -50,7 +50,7 @@ margin-right: 0;
 
 #img{
 	position: absolute;
-	width: cover;
+	width: 100%;
 	left:0;
 	z-index: -1;
 	top:50px;
