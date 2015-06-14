@@ -123,4 +123,7 @@ a:hover, a:active {
     }
 }
 
-
+@font-face {
+    font-family: Oswald-Light;
+    src: url(Oswald-Light.ttf);
+}

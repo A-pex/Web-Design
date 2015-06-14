@@ -3,7 +3,7 @@
     <head>
         <title>Apex Web Design</title>
 		<link rel="stylesheet" type="text/css" href="Style.css" />
-         <link rel="icon" type="image/ico" href="Photos/Apex Logo Icon.png"/> 
+         <link rel="icon" type="image/ico" href="Photos/Apex Logo Icon.svg"/> 
 		<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
 		<style>
 
@@ -14,6 +14,7 @@
 }
 }
 </style>
+
     </head>
 	
     <body>
@@ -32,7 +33,30 @@
 
 	<img src="Photos/advPhoto.jpg" id="img">
 	<div id = "chunk">
+<p style="font-size:30px;font-family:Oswald-Light">Welcome to A-PEX Webdesign<br>Our company have been making affordable and quality websites since last thursday. Below you can see some of the websites we have created for other cleints and please feel free to explore our website.</p>
+  
+<!--Slide Show--> 
+	<script language="JavaScript"> 
+var i = 0; var path = new Array(); 
 
-    </body>
+// LIST OF IMAGES 
+path[0] = "Photos/capture.jpg"; 
+path[1] = "Photos/capture1.jpg"; 
+path[2] = "Photos/capture2.jpg"; 
+
+function swapImage() 
+{ 
+document.slide.src = path[i]; 
+if(i < path.length - 1) i++; 
+else i = 0; 
+setTimeout("swapImage()",4000); 
+} 
+window.onload=swapImage; 
+</script> 
+<center><img name="slide" src="image_1.gif" width="1300px" /></center>
+<!--End Slide Show--> 	
+
+
+  </body>
 	
 </html>
