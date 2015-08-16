@@ -58,14 +58,13 @@ margin-right: 0;
 
 #img{
 	position: fixed;
-	width: 100%;
-	height: 100%;
+
 	left:0;
 	z-index: -1;
 	top:0px;
 	padding: 0;
 	min-width: 1024px;
-
+	overflow: scroll;
 	
 }
 #chunk{
@@ -79,18 +78,26 @@ margin-right: 0;
 	padding: 0;
 }
 #contactChunk{
-  position: absolute;
-  width: 100%;
-  background-color: #FFFFFF;
-  left: 0;
-  right: 0;
+  position: relative;
+  width: 60%;
+  background-color: #DCDCDC;
+  left: 20%;
+  right: 20%;
   top: 50px;
   height: 100%;
   padding: 0;
 
 }
+#contactsTable{
+  font-family: 'Oswald', sans-serif;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+
+}
+
 body {
-	background-color: #FFFFFF;
+	background-color: #DCDCDC;
 }
 
 		ul {
@@ -102,15 +109,7 @@ body {
 	position:fixed;
 }
 
-li {
-	text-align:center;
-	margin: 0;
-    padding: 0;
-	top: 0;
 
-	
-	
-}
 
 	a:link, a:visited {
 	left:0;
