@@ -44,6 +44,17 @@ margin-right: 0;
   z-index: 2;
   
    }
+
+   #welcome {
+    text-align:center;
+    width:relative;
+    position:absolute;
+    top:25%;
+    right:50%;
+    left:50%;
+    color:#000000;
+    padding:0px;
+   }
    
  #photoContainer{
 
@@ -78,8 +89,9 @@ margin-right: 0;
 	top: 680px;
 	left: 0;
 	right: 0;
-	height: 900px;
+	height: relative;
 	padding: 0;
+  opacity: 0.7;
 }
 #contactChunk{
   position: relative;
@@ -90,6 +102,7 @@ margin-right: 0;
   top: 50px;
   height: 100%;
   padding: 0;
+  opacity: 0.7;
 
 }
 #contactsTable{
