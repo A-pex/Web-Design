@@ -4,6 +4,10 @@
     }
 }
 
+* {
+  font-size:30px;font-family:Oswald-Light
+}
+
 #photoContainer{
 position: absolute;
 width: cover;
@@ -136,4 +140,8 @@ a:hover, a:active {
 @font-face {
     font-family: Oswald-Light;
     src: url(Oswald-Light.ttf);
+}
+
+li {
+	left:0;
 }
