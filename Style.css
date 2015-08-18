@@ -44,22 +44,19 @@
   right: 0;
   font-family: 'Oswald', sans-serif;
   z-index: 2;
-  
-   }
+}
    
- #photoContainer{
-
-width: cover;
-background-color: #D46A6A;
-left: 0;
-right: 0;
-padding: 0;
-margin-left: 0;
-margin-right: 0;
+#photoContainer{
+  width: cover;
+  background-color: #D46A6A;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
   display:block;
   height: 50px; 
   top:100px;
-
 }
 
 #img{
@@ -70,8 +67,8 @@ margin-right: 0;
 	padding: 0;
 	min-width: 1024px;
 	overflow: scroll;
-	
 }
+
 #chunk{
 	position: absolute;
 	width: 100%;
@@ -83,6 +80,7 @@ margin-right: 0;
 	padding: 0;
   opacity: 0.7;
 }
+
 #contactsTable{
   font-family: 'Oswald', sans-serif;
   left: 50%;
@@ -95,16 +93,13 @@ body {
 	background-color: #DCDCDC;
 }
 
-		ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-	
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 	position:fixed;
 }
-
-
 
 a:link, a:visited {
 	left:0;
@@ -119,10 +114,11 @@ a:link, a:visited {
   text-transform: uppercase;
   height:50px;
 }
+
 a:hover, a:active {
     background-color: rgba(151,151,151,0.5);
 }
-}
+
 @media screen and (max-width: 600px) {
     body {
         background-color: lightblue;
