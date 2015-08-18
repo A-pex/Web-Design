@@ -1,6 +1,7 @@
-@media screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
+@media screen and (max-width: 899px) {
+    li {
+        
+        background-color: rgba(151,151,151,0.5);
     }
 }
 
@@ -11,6 +12,7 @@
 @media screen and (min-width: 900px) {
   li {
   float: left;
+
 
 }
 }
@@ -99,6 +101,7 @@ ul {
   padding: 0;
   overflow: hidden;
 	position:fixed;
+
 }
 
 a:link, a:visited {
@@ -132,4 +135,5 @@ a:hover, a:active {
 
 li {
 	left:0;
+
 }
