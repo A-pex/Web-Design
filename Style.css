@@ -17,6 +17,19 @@
 }
 }
 
+#logoContainer {
+	width: 150px;
+	position: relative;
+}
+
+#logoImage{
+	width: 40px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
 #photoContainer{
   position: absolute;
   width: cover;
