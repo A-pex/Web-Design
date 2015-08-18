@@ -16,17 +16,16 @@
 }
 
 #photoContainer{
-position: absolute;
-width: cover;
-background-color: #D46A6A;
-left: 0;
-right: 0;
-padding: 0;
-margin: 0;
-margin-left: 0;
-margin-right: 0;
- top: 60px;
-
+  position: absolute;
+  width: cover;
+  background-color: #D46A6A;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  top: 60px;
 }
 
 #menu {
@@ -44,7 +43,6 @@ margin-right: 0;
   left: 0;
   right: 0;
   font-family: 'Oswald', sans-serif;
-  
   z-index: 2;
   
    }
@@ -78,24 +76,12 @@ margin-right: 0;
 	position: absolute;
 	width: 100%;
 	background-color: #DCDCDC;
-	top: 90%;
+	top: 88%;
 	left: 0;
 	right: 0;
 	height: relative;
 	padding: 0;
   opacity: 0.7;
-}
-#contactChunk{
-  position: relative;
-  width: 60%;
-  background-color: #DCDCDC;
-  left: 20%;
-  right: 20%;
-  top: 50px;
-  height: 100%;
-  padding: 0;
-  opacity: 0.7;
-
 }
 #contactsTable{
   font-family: 'Oswald', sans-serif;
@@ -120,17 +106,18 @@ body {
 
 
 
-	a:link, a:visited {
+a:link, a:visited {
 	left:0;
 	background: url(50%-transparent-white.png);
 	display: block;
-    width: 120px;
+  width: relative;
 	top:0;
-    color: #FFFFFF;
-	
-    padding: 13px;
-    text-decoration: none;
-    text-transform: uppercase;
+  color: #FFFFFF;
+  padding-left: 13px;
+  padding-right:13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  height:50px;
 }
 a:hover, a:active {
     background-color: rgba(151,151,151,0.5);
