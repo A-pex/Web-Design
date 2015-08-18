@@ -8,6 +8,13 @@
   font-size:30px;font-family:Oswald-Light
 }
 
+@media screen and (min-width: 900px) {
+  li {
+  float: left;
+
+}
+}
+
 #photoContainer{
 position: absolute;
 width: cover;
@@ -44,17 +51,6 @@ margin-right: 0;
   z-index: 2;
   
    }
-
-   #welcome {
-    text-align:center;
-    width:relative;
-    position:absolute;
-    top:25%;
-    right:50%;
-    left:50%;
-    color:#000000;
-    padding:0px;
-   }
    
  #photoContainer{
 
@@ -73,10 +69,9 @@ margin-right: 0;
 
 #img{
 	position: fixed;
-
 	left:0;
 	z-index: -1;
-	top:0px;
+	top:0%;
 	padding: 0;
 	min-width: 1024px;
 	overflow: scroll;
@@ -86,7 +81,7 @@ margin-right: 0;
 	position: absolute;
 	width: 100%;
 	background-color: #DCDCDC;
-	top: 680px;
+	top: 90%;
 	left: 0;
 	right: 0;
 	height: relative;
