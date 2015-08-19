@@ -1,6 +1,7 @@
-@media screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
+@media screen and (max-width: 899px) {
+    li {
+        
+        background-color: rgba(151,151,151,0.5);
     }
 }
 
@@ -12,7 +13,21 @@
   li {
   float: left;
 
+
 }
+}
+
+#logoContainer {
+	width: 150px;
+	position: relative;
+}
+
+#logoImage{
+	width: 40px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+
 }
 
 #photoContainer{
@@ -78,7 +93,7 @@
   top:88%;
 	height: relative;
 	padding: 0;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 #contactsTable{
@@ -99,6 +114,7 @@ ul {
   padding: 0;
   overflow: hidden;
 	position:fixed;
+
 }
 
 a:link, a:visited {
@@ -132,4 +148,5 @@ a:hover, a:active {
 
 li {
 	left:0;
+
 }
