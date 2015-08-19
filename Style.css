@@ -17,8 +17,24 @@
 }
 }
 
+.menuLink {
+  left:0;
+  background: url(50%-transparent-white.png);
+  display: inline-block;
+  width: relative;
+  top:0;
+  color: #FFFFFF;
+  padding-left: 13px;
+  padding-right:13px;
+  padding-bottom:0px;
+  text-transform: uppercase;
+  height: 100%;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
 #logoContainer {
-	width: 150px;
+	width: 60px;
 	position: relative;
 }
 
@@ -49,9 +65,9 @@
   margin: 0;
   margin-left: 0;
   margin-right: 0;
-  display:block;
+  display: block;
   background: rgba(151,151,151,0.5);
-  height: 50px; 
+  height: 7.5%; 
   position: fixed;
   top: 0px;	
   width: cover; 
@@ -90,10 +106,32 @@
 	background-color: #DCDCDC;
 	left: 0;
 	right: 0;
-  top:88%;
-	height: relative;
+  top:7.5%;
+	height: 92.5%;
 	padding: 0;
   opacity: 0.9;
+  overflow: auto;
+}
+
+.chunk{
+  position: absolute;
+  width: 100%;
+  background-color: #DCDCDC;
+  left: 0;
+  right: 0;
+  top:7.5%;
+  height: 92.5%;
+  padding: 0;
+  opacity: 0.9;
+  overflow: auto;
+}
+
+.bar {
+  display:block;
+  height:0.5%;
+  width:80%;
+  margin:auto;
+  background-color: rgba(151,151,151,0.7);
 }
 
 #contactsTable{
@@ -118,21 +156,11 @@ ul {
 }
 
 a:link, a:visited {
-	left:0;
-	background: url(50%-transparent-white.png);
-	display: block;
-  width: relative;
-	top:0;
-  color: #FFFFFF;
-  padding-left: 13px;
-  padding-right:13px;
   text-decoration: none;
-  text-transform: uppercase;
-  height:50px;
 }
 
-a:hover, a:active {
-    background-color: rgba(151,151,151,0.5);
+.menuLink:active, .menuLink:hover {
+    background-color: rgba(151,151,151,0.8);
 }
 
 @media screen and (max-width: 600px) {
