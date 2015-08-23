@@ -5,31 +5,7 @@
 		<link id="pageStyle" rel="stylesheet" type="text/css" href="default.css" />
 		<link rel="icon" type="image/ico" href="Photos/apexLogo.fw.png"/> 
 		<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'/>
-		<script type="text/javascript">
-			function detectMobile() { 
- 				if( navigator.userAgent.match(/Android/i)
- 					|| navigator.userAgent.match(/webOS/i)
-					|| navigator.userAgent.match(/iPhone/i)
- 					|| navigator.userAgent.match(/iPad/i)
- 					|| navigator.userAgent.match(/iPod/i)
- 					|| navigator.userAgent.match(/BlackBerry/i)
- 					|| navigator.userAgent.match(/Windows Phone/i)
- 				){
- 					convertMobile();
-  				}
- 				else {
-    				changeStyle("default.css");
-  				}
-			}
-			function convertMobile() {
-				changeStyle("mobile.css");
-				document.getElementById("bgimg").setAttribute("src", "Photos/mobileBg.png")
-				document.getElementById("menu").innerHTML = '<ul><li id = "logoContainer"><img id = "logoImage" src ="Photos/apexLogo.fw.png" width = 40px > </li></ul>';
-			}
-			function changeStyle(sheet) {
-				document.getElementById("pageStyle").setAttribute("href", sheet);
-			}
-		</script>
+		<script language="javascript" type="text/javascript" src="library.js"></script>
 	</head>
 	<body onLoad="detectMobile();">
 		<!--Nav Menu-->
@@ -103,7 +79,6 @@
 						<td>Apex.Cameron.Stanley@apex.com</td>
 					</tr>
 				</table>
-				<button onclick="convertMobile();">Mobile View</button>
 		</div>
 	</body>
 </html>
