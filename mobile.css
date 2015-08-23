@@ -49,7 +49,7 @@
   margin-right: 0;
   display: block;
   background: rgba(151,151,151,0.5);
-  height: 7.5%; 
+  height: 4%; 
   position: fixed;
   top: 0px;	
   width: cover; 
@@ -90,7 +90,7 @@
   background-color: #DCDCDC;
   left: 0;
   right: 0;
-  top:7.5%;
+  top:4%;
   height: 92.5%;
   padding: 0;
   opacity: 0.8;
