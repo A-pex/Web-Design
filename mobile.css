@@ -1,26 +1,10 @@
-@media screen and (max-width: 899px) {
-    li {
-        
-        background-color: rgba(151,151,151,0.5);
-    }
-}
-
 * {
   font-size:50px;font-family:Oswald-Light;
 }
 
-@media screen and (min-width: 900px) {
-  li {
-  float: left;
-
-
-}
-}
-
 .menuLink {
   left:0;
-  background: url(50%-transparent-white.png);
-  display: block;
+  display: inline-block;
   width: relative;
   top:0;
   color: #FFFFFF;
@@ -29,8 +13,7 @@
   padding-bottom:0px;
   text-transform: uppercase;
   height: 100%;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  float: left;
 }
 
 #logoContainer {
