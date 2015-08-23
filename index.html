@@ -2,11 +2,35 @@
 <html>
 	<head>
 		<title>Apex Web Design</title>
-		<link rel="stylesheet" type="text/css" href="Style.css" />
+		<link id="pageStyle" rel="stylesheet" type="text/css" href="default.css" />
 		<link rel="icon" type="image/ico" href="Photos/apexLogo.fw.png"/> 
 		<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'/>
+		<script type="text/javascript">
+			function detectMobile() { 
+ 				if( navigator.userAgent.match(/Android/i)
+ 					|| navigator.userAgent.match(/webOS/i)
+					|| navigator.userAgent.match(/iPhone/i)
+ 					|| navigator.userAgent.match(/iPad/i)
+ 					|| navigator.userAgent.match(/iPod/i)
+ 					|| navigator.userAgent.match(/BlackBerry/i)
+ 					|| navigator.userAgent.match(/Windows Phone/i)
+ 				){
+ 					convertMobile();
+  				}
+ 				else {
+    				changeStyle("default.css");
+  				}
+			}
+			function convertMobile() {
+				changeStyle("mobile.css");
+				document.getElementById("bgimg").setAttribute("src", "Photos/mobileBg.png")
+			}
+			function changeStyle(sheet) {
+				document.getElementById("pageStyle").setAttribute("href", sheet);
+			}
+		</script>
 	</head>
-	<body>
+	<body onLoad="detectMobile();">
 		<!--Nav Menu-->
 		<div id = 'menu'>
 			<ul>
@@ -18,7 +42,7 @@
 			</ul>
 		</div>
 		<!--End ofNav Menu-->
-		<img src="Photos/Background.svg" id="img" name="#img">
+		<img src="Photos/Background.svg" id="bgimg">
 		<div class ="chunk">
 			<p>
 				<a name = "welcome"><b>Welcome to A-PEX Web Design</b></a>
@@ -78,6 +102,7 @@
 						<td>Apex.Cameron.Stanley@apex.com</td>
 					</tr>
 				</table>
+				<button onclick="convertMobile();">Mobile View</button>
 		</div>
 	</body>
 </html>

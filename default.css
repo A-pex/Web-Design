@@ -1,0 +1,168 @@
+@media screen and (max-width: 899px) {
+    li {
+        
+        background-color: rgba(151,151,151,0.5);
+    }
+}
+
+* {
+  font-size:30px;font-family:Oswald-Light;
+}
+
+@media screen and (min-width: 900px) {
+  li {
+  float: left;
+
+
+}
+}
+
+.menuLink {
+  left:0;
+  background: url(50%-transparent-white.png);
+  display: block;
+  width: relative;
+  top:0;
+  color: #FFFFFF;
+  padding-left: 13px;
+  padding-right:13px;
+  padding-bottom:0px;
+  text-transform: uppercase;
+  height: 100%;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#logoContainer {
+	width: 60px;
+	position: relative;
+}
+
+#logoImage{
+	width: 40px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#photoContainer{
+  position: absolute;
+  width: cover;
+  background-color: #D46A6A;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  top: 60px;
+}
+
+#menu {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  display: block;
+  background: rgba(151,151,151,0.5);
+  height: 7.5%; 
+  position: fixed;
+  top: 0px;	
+  width: cover; 
+  left: 0;
+  right: 0;
+  font-family: 'Oswald', sans-serif;
+  z-index: 2;
+}
+   
+#photoContainer{
+  width: cover;
+  background-color: #D46A6A;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  display:block;
+  height: 50px; 
+  top:100px;
+}
+
+#bgimg{
+	position: fixed;
+	left:0;
+	z-index: -1;
+	top:0%;
+	padding: 0;
+	min-width: 1024px;
+	overflow: scroll;
+  -webkit-filter:blur(5px);
+}
+
+
+.chunk {
+  position: absolute;
+  width: 100%;
+  background-color: #DCDCDC;
+  left: 0;
+  right: 0;
+  top:7.5%;
+  height: 92.5%;
+  padding: 0;
+  opacity: 0.8;
+  overflow: auto;
+}
+
+.bar {
+  display:block;
+  height:0.5%;
+  width:80%;
+  margin:auto;
+  background-color: rgba(151,151,151,0.7);
+}
+
+#contactsTable{
+  font-family: 'Oswald', sans-serif;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+
+}
+
+body {
+	background-color: #DCDCDC;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+	position:fixed;
+
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+.menuLink:active, .menuLink:hover {
+    background-color: rgba(151,151,151,0.8);
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@font-face {
+    font-family: Oswald-Light;
+    src: url(Oswald-Light.ttf);
+}
+
+li {
+	left:0;
+
+}
