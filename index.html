@@ -2,19 +2,20 @@
 <html>
 	<head>
 		<title>Apex Web Design</title>
-		<link id="pageStyle" rel="stylesheet" type="text/css" href="default.css" /> <!-- The stylesheet -->
-		<script language="javascript" type="text/javascript" src="library.js"></script> <!-- Links to an external javascript document -->
+		<link id="pageStyle" rel="stylesheet" type="text/css" href="default.css"/> <!-- The stylesheet -->
+		<script language="javascript" type="text/javascript" src="js/library.js"></script> <!-- Links to an external javascript document -->
 		<link rel="icon" type="image/ico" href="Photos/apexLogo.fw.png"/> <!-- Favourites Icon -->
 	</head>
 	<body onLoad="detectMobile();">
 		<!--Nav Menu-->
 		<div id = 'menu'>
 			<ul>
-				<li id = "logoContainer"><img id = "logoImage" src ="Photos/apexLogo.fw.png" width = 40px > </li>
+				<li id = "logoContainer"><img id = "logoImage" src ="Photos/apexLogo.fw.png" width = 40px onClick="mobileMenu();"></li>
 				<li><a href="#intro" class="menuLink">Home</a></li>
 				<li><a href="#about" class="menuLink">About</a></li>
 				<li><a href="#pricing" class="menuLink">Pricing</a></li>
 				<li><a href="#contact" class="menuLink">Contact</a></li>
+				<li onClick="convertMobile();"><a class="menuLink">Mobile</a></li>
 			</ul>
 		</div>
 		<!--End of Nav Menu-->
@@ -92,6 +93,16 @@
 					</tr>
 				</table>
 			<!-- end of contact us section, and email table -->
+			<!-- a contact form -->
+				<form align="center">
+					Email:<br />
+					<input type="email" name="eMail"><br />
+					Subject:<br />
+					<input type="text" name="subject"><br />
+					Main:<br />
+					<input type="" name="main">
+				</form>
+			<!-- end of contact form -->
 		</div>
 		<!-- end of the main "Chunk" -->
 	</body>

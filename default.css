@@ -133,6 +133,14 @@ body {
 	background-color: #DCDCDC;
 }
 
+form {
+  padding:10px;
+}
+
+input {
+  margin: 10px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;

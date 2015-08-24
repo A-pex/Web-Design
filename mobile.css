@@ -5,7 +5,7 @@
 .menuLink {
   left:0;
   display: inline-block;
-  width: relative;
+  width: 50%;
   top:0;
   color: #FFFFFF;
   padding-left: 13px;
@@ -13,16 +13,18 @@
   padding-bottom:0px;
   text-transform: uppercase;
   height: 100%;
-  float: left;
+  background-color: rgba(151,151,151,0.5);
 }
 
 #logoContainer {
-	width: 60px;
+	width: 6%;
 	position: relative;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 #logoImage{
-	width: 40px;
+	width: 80%;
 	margin-left: auto;
   margin-right: auto;
   display: block;
@@ -49,13 +51,12 @@
   margin-right: 0;
   display: block;
   background: rgba(151,151,151,0.5);
-  height: 4%; 
+  height: 6%; 
   position: fixed;
   top: 0px;	
   width: cover; 
   left: 0;
   right: 0;
-  font-family: 'Oswald', sans-serif;
   z-index: 2;
 }
    
@@ -83,6 +84,13 @@
   -webkit-filter:blur(5px);
 }
 
+#menuButton {
+  display:block;
+  width:auto;
+  height:60%;
+  border-radius:25px;
+  background-color: #DCDCDC;
+}
 
 .chunk {
   position: absolute;
@@ -90,8 +98,8 @@
   background-color: #DCDCDC;
   left: 0;
   right: 0;
-  top:4%;
-  height: 96%;
+  top:6%;
+  height: 94%;
   padding: 0;
   opacity: 0.8;
   overflow: auto;
@@ -124,7 +132,6 @@ ul {
   padding: 0;
   overflow: hidden;
 	position:fixed;
-
 }
 
 a:link, a:visited {
