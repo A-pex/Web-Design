@@ -10,7 +10,7 @@
 		<!--Nav Menu-->
 		<div id = 'menu'>
 			<ul>
-				<li id = "logoContainer"><img id = "logoImage" src ="Photos/apexLogo.fw.png" width = 40px onClick="mobileMenu();"></li>
+				<li id = "logoContainer"><img id = "logoImage" src ="Photos/apexLogo.fw.png" width = 40px></li>
 				<li><a href="#intro" class="menuLink">Home</a></li>
 				<li><a href="#about" class="menuLink">About</a></li>
 				<li><a href="#pricing" class="menuLink">Pricing</a></li>
@@ -26,8 +26,8 @@
 		<div class ="chunk">
 			<!-- the intro paragraph -->
 			<p>
-				<a name = "intro"><b>Welcome to A-PEX Web Design</b></a>
-				<br />Our company have been making affordable and quality websites for local buisnesess in the adeliade area since last thursday. Below you can see some of the websites we have created for our other cleints and please feel free to have a look around our regulary updated website.
+				<a name = "intro"><b>Welcome to A-Pex Web Design</b></a>
+				<br />A-Pex web design is the affordable solution to web design! At A-Pex it is not only important to offer great websites and great customer support at very affordable prices, but also to ensure that your input is valued to an incredibly high degree. 
 			</p>
 			<!-- end of intro paragraph and a divider bar below this line -->
 			<div class="bar"></div>
@@ -35,7 +35,8 @@
 			<p>
 				<a name="about"><b>About</b></a>
 				<br />
-				At Apex we strive to create modern, powerful and affordable websites that <b>you</b> can help design! Alternatively, you can choose from a wide variaty of our pre-made themes to suit you or your business. 
+				At A-Pex we strive to create modern, powerful and affordable websites that you design! Alternatively, you can choose from a wide variaty of our pre-made themes to suit you or your business. <br /> 
+				A-Pex is primarily based in the Mawson Lakes/Salisbury area in South Australia, but we are more than happy to work with you to create the website that you need even if you don't live in the area!
 			</p>
 			<!-- end of about paragraph, and another divider bar below this line -->
 			<div class="bar"></div>
@@ -43,7 +44,7 @@
 			<p>
 				<a name="pricing"><b>Pricing</b></a>
 				<br />
-				At Apex we strive to be affordable for <b>you</b>! We are happy to create custom quote for you, but below you will find our base prices.
+				At A-Pex it is of vital importance that you can get the powerful websites you need, for the prices you can afford! Because of this, we are happy to offer free custom quotes to suit you or your business!
 				<br />
 				<!-- Pricing table -->
 				<table>
@@ -53,7 +54,7 @@
 								<b>Blog - $20/mo + Domain</b>
 							</td>
 							<td>
-								A blog is a one page website which you can update as frequently as you wish.
+								A blog is a one to three page website that is easily managed by one person, or a small group of people. The idea of a blog is to be updated regularly by person or people that run it. At A-Pex we make updating your blog 
 							</td>
 						</tr>
 						<tr>
@@ -73,26 +74,10 @@
 			<!-- start of contact us section -->
 			<p>
 				<a name="contact"><b>Contact</b><a>
-				<center><img src = "http://bugclubnews.pearson.com/wp-content/uploads/2013/02/phone-graphic.png" width = 150></center>
+				<center><img src = "Photos/Phone.png" width = 150></center>
 					If you would like to contact us we would love to hear from you. For enquiries or general information you can contact us through any of the following avenues.
 				</p>
 				<br />
-				<!-- start of email table, a table of our emails -->
-				<table id = "contactsTable" align = "center">
-					<tr>
-						<td>Apex.Ahmed.Azhar@apex.com</td>
-					</tr>
-					<tr>
-						<td>Towja@apex.com</td>
-					</tr>
-					<tr>
-						<td>Apex.Bill.Materne@apex.com</td>
-					</tr>
-					<tr>
-						<td>Apex.Cameron.Stanley@apex.com</td>
-					</tr>
-				</table>
-			<!-- end of contact us section, and email table -->
 			<!-- a contact form -->
 				<form align="center">
 					Email:<br />
@@ -100,7 +85,8 @@
 					Subject:<br />
 					<input type="text" name="subject"><br />
 					Main:<br />
-					<input type="" name="main">
+					<textarea rows="5" class="noResize"></textarea><br />
+					<input type="submit" onClick="submitForm();">
 				</form>
 			<!-- end of contact form -->
 		</div>

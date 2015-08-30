@@ -17,6 +17,10 @@
 }
 }
 
+.noResize {
+  resize:none;
+}
+
 .menuLink {
   left:0;
   display: block;
@@ -139,6 +143,11 @@ form {
 
 input {
   margin: 10px;
+  width:25%;
+}
+
+textarea {
+  width:25%;
 }
 
 ul {

@@ -19,14 +19,11 @@
 #logoContainer {
 	width: 6%;
 	position: relative;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left:3%
 }
 
-#logoImage{
+#logoImage{;
 	width: 80%;
-	margin-left: auto;
-  margin-right: auto;
   display: block;
 }
 
@@ -54,7 +51,7 @@
   height: 6%; 
   position: fixed;
   top: 0px;	
-  width: cover; 
+  width: 100%; 
   left: 0;
   right: 0;
   z-index: 2;
