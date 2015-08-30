@@ -2,6 +2,11 @@
   font-size:60px;font-family:Oswald-Light;
 }
 
+
+.noResize {
+  resize:none;
+}
+
 .menuLink {
   left:0;
   display: inline-block;
@@ -121,6 +126,19 @@
 body {
 	background-color: #DCDCDC;
   text-align:center;
+}
+
+form {
+  padding:10px;
+}
+
+input {
+  margin: 10px;
+  width:25%;
+}
+
+textarea {
+  width:25%;
 }
 
 ul {
