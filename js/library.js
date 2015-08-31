@@ -55,13 +55,16 @@
 			}
 			/* this function will submit the form, and check
 			if the client is human. */
-			function submitForm() {
-				var question = "If I asked you what your name is, and it was Jacob, what would your name be? (To check you aren't a robot)";
-				var answer = "jacob";
-				if (prompt(question).toLowerCase() == answer) {
-					alert("yay");
+			function submitContactForm() {
+				var dropdown = document.getElementById("formSubject");
+				var body = document.getElementById("contactBody")
+				if(dropdown.value=="Select") {
+					alert("Please choose a subject!");
+				}
+				else if(body.value=="") {
+					alert("Please fill in all parts of the form!");
 				}
 				else {
-					alert("You are not human!");
+					document.forms["contactForm"].submit();
 				}
 			}

@@ -17,6 +17,11 @@
 }
 }
 
+.finePrint{
+  font-size:12px;
+  text-align:center;
+}
+
 .noResize {
   resize:none;
 }

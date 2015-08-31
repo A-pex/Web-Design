@@ -79,15 +79,20 @@
 				</p>
 				<br />
 			<!-- a contact form -->
-				<form align="center">
-					Email:<br />
-					<input type="email" name="eMail"><br />
+				<form action="mailto:towja@icloud.com" method="GET" enctype="multipart/form-data" id="contactForm" align="center">
 					Subject:<br />
-					<input type="text" name="subject"><br />
-					Main:<br />
-					<textarea rows="5" class="noResize"></textarea><br />
-					<input type="submit" onClick="submitForm();">
+					<select name="subject" id="formSubject">
+						<option value="Select">--- Select One ---</option>
+						<option value="CustomQuote">Custom Quote</option>
+						<option value="GeneralQuestion">General Question</option>
+					</select><br />
+					Details:<br />
+					<textarea rows="7" class="noResize" form="contactForm" name="body" id="contactBody"></textarea><br />
+					<input type="button" onClick="submitContactForm();" value="Submit">
 				</form>
+				<div class="finePrint">
+					<a class="finePrint" href="privacy.html">By submitting this form, you are agreeing to our privacy policy.</a>
+				</div>
 			<!-- end of contact form -->
 		</div>
 		<!-- end of the main "Chunk" -->
